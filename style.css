@@ -1,0 +1,183 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #000;
+}
+.logo-text{
+    padding: 10px;
+}
+
+.logo-text h2{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+.head-menus ul{
+    list-style-type: none;
+    /* padding: 10px; */
+}
+
+.head-menus ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 10px;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.main-menus{
+
+    display: flex;
+    position: relative;
+
+}
+
+.head-menus .contact-us{
+    background-color: #ffffff;
+    color: #000;
+    border-radius:3px;
+}
+
+.head-menus .contact-us:hover{
+    background-color: #949494;
+    transition: all 0.8s ease-in-out;
+}
+
+.head-menus .main-menus .Sub-menus{
+    position: absolute;
+    top: 39px;
+    left: 200px;
+    display: none;
+
+}
+
+.Sub-menus li{
+    color: #ffffff;
+    background-color: #000;
+    padding: 10px;
+    width: 150px;
+    font-size: 7px;
+}
+
+
+.head-menus .main-menus .show-menu:hover .Sub-menus{
+    display: block;
+}
+
+
+.home-page{
+    background-image: url(Assets/mbr-1464x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.home-page .home-contant{
+    padding: 20px;
+}
+
+.home-page .home-contant h2{
+    padding: 30px;
+    font-size: 35px;
+    /* width: 700px; */
+}
+
+.home-page .home-contant p{
+    /* width: 200px; */
+    padding: 0px 60px;
+    font-weight: 100;
+}
+
+.home-page  .home-btn{
+    padding: 10px;
+}
+
+.home-page  .home-btn button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+background-color: #0a193b;
+color: #fff;
+font-size: 10px;
+font-weight: 900;
+}
+
+.home-page  .home-btn button:hover{
+    background-color: #080808;
+color: #fff;
+transition: all 0.9s ease-in-out;
+
+}
+
+.home-page .home-btn button:nth-child(2){
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.home-page .home-btn button:nth-child(2):hover{
+    background-color: #bab8b8;
+    color: #020202;
+    transition: all 0.9s ease-in-out;
+
+}
+
+.home-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.home-logos .logo1 i{
+    padding: 20px;
+    font-size: 100px;
+}
+
+.home-logos .logo2 i{
+    padding: 20px;
+    font-size: 100px;
+}
+
+
+.home-logos .logo3 i{
+    padding: 20px;
+    font-size: 100px;
+}
+
+.home-logos .logo1 h2,p{
+    padding: 10px;
+}
+
+.home-logos .logo2 h2,p{
+    padding: 10px;
+}
+
+
+.home-logos .logo3 h2,p{
+    padding: 10px;
+}
+
+.home-page .home-layer{
+    background: linear-gradient(135deg, #000000 0%, #022e93 100%);
+    opacity: 0.5;
+    height: 900vh;
+    /* position: absolute; */
+    /* z-index: 1; */
+
+}
